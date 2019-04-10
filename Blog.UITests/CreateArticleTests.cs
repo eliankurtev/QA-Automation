@@ -80,7 +80,7 @@
         }
 
         [Test]
-        [Description("TC 03.03")]
+//        [Description("TC 03.03")]
         [Author("Angela Teneva")]
         [TestCase("u")]
         [TestCase("these fifty characters are equal to the upper limit")]
@@ -136,7 +136,7 @@
         [Author("Angela Teneva")]
         public void CancelButton_ShouldRefuse_Article()
         {
-            articlePage.CreateNewArticle.Click();
+ //           articlePage.CreateNewArticle.Click();
             articlePage.CancelArticleButton.Click();
             var pageUrl = driver.Url;
 
